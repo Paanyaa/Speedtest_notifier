@@ -135,7 +135,6 @@ Network Speed Test Notifier
 ![Screenshot (27)](https://github.com/user-attachments/assets/19339bdc-3daa-4414-9033-b91d999a2c19)
 
 Select Run with Priviledge(Sometimes may not work with priviledge.)
-Press OK
 
 
 2.2)Trigger: 
