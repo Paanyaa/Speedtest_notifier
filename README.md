@@ -113,3 +113,25 @@ To run the Script.
 7.Wait for few Seconds
 
 ![Screenshot (16)](https://github.com/user-attachments/assets/844762ef-c6bd-468e-a602-b8113739e1a3)
+
+## Schedule script with a certain interval
+
+1.Click on Search and Type Task Scheduler and Open it.
+
+![Screenshot (17)](https://github.com/user-attachments/assets/b684b27b-a1f2-46e0-9db8-9a049c57dd94)
+
+2.Create a Basic Task
+
+![Screenshot (18)](https://github.com/user-attachments/assets/a9796559-b4b1-42f9-b6e0-c87081689eb1)
+
+![image](https://github.com/user-attachments/assets/6ccebbd4-34d6-4f16-b22d-587d478ed520)
+
+Name: `Network Speed Test Notifier`
+
+Trigger: `Daily`, at the desired interval time.
+
+Action: `Start a program`
+
+Program/script: `powershell`
+
+Add arguments: `-File "C:\SpeedtestNotifier.ps1"`
