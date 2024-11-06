@@ -59,7 +59,10 @@ Replace `UserName` with your actual username in the following command:
 
 # For Windows
 
-### `<Its a bit complicated but worth it>`
+### `<Its a bit complicated and the schedular may not even work but u can check the script manually by opening command prompt as Adminstrator.>`
+```bash
+   powershell -File "C:\SpeedtestNotifier.ps1"
+```
 
 ## Enable Scripts
 
