@@ -27,5 +27,34 @@ Atfter installatoin lets set its interval
 ```Bash
   crontab -e
 ```
-#### 2.Copy paste below lines
+2.Copy paste below lines
+```Bash
+DISPLAY=:0
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 
+* * * * * /home/UserName/speedtest_notify.sh
+```
+To set the interval, you will need to use the correct path based on your system's user directory. 
+
+Replace `UserName` with your actual username in the following command:
+
+```sh
+* * * * * /home/UserName/speedtest_notify.sh
+```
+## Customise interval
+
+1. For setting interval as 1 Minute don't make any changes in above line
+
+2. For setting interval as 1 Hour make changes in last line
+```Bash
+0 * * * * /home/panyaa/speedtest_notify.sh
+```
+To change the existing interval you will need to use the correct path based on your system's user directory. 
+
+Replace `UserName` with your actual username in the following command:
+
+```sh
+0 * * * * /home/UserName/speedtest_notify.sh
+```
+
+If you face any issues contact me.......
