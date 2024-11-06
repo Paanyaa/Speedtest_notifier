@@ -58,7 +58,7 @@ Replace `UserName` with your actual username in the following command:
 ```
 
 
-![image](https://github.com/user-attachments/assets/f1afef26-11f5-4d20-8b5c-112a1d46ff0f)
+![image](https://github.com/user-attachments/assets/313d6ca8-ec3f-46ae-b0f6-ea26883f2b24)
 
 
 
