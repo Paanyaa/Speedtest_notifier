@@ -59,7 +59,7 @@ Replace `UserName` with your actual username in the following command:
 
 # For Windows
 
-### `<Its a bit complicated and the schedular may not even work but u can check the script manually by opening command prompt as Adminstrator.>`
+### `<Its a bit complicated and the schedular may not work sometimes.>`
 ```bash
    powershell -File "C:\SpeedtestNotifier.ps1"
 ```
@@ -123,53 +123,71 @@ To run the Script.
 
 ![Screenshot (17)](https://github.com/user-attachments/assets/b684b27b-a1f2-46e0-9db8-9a049c57dd94)
 
-2.Create a Basic Task
+2.Create a Task
 
-![Screenshot (18)](https://github.com/user-attachments/assets/a9796559-b4b1-42f9-b6e0-c87081689eb1)
-
+![Screenshot (26)](https://github.com/user-attachments/assets/5c044e7a-fda3-4716-9de7-99376e69f99d)
 
 2.1)Name: 
 ```sh
 Network Speed Test Notifier
 ```
 
-![Screenshot (20)](https://github.com/user-attachments/assets/a7dcb6d8-7661-4b06-b498-f6c41d9e96cd)
+![Screenshot (27)](https://github.com/user-attachments/assets/19339bdc-3daa-4414-9033-b91d999a2c19)
+
+Press OK
 
 
 2.2)Trigger: 
+
+Click NEW
 ```sh
-When Computer Starts
+At log on
 ```
 , at the desired interval time.
 
-![Screenshot (21)](https://github.com/user-attachments/assets/1e35421f-9df4-4806-a3f3-9fc3c8e47deb)
+![Screenshot (30)](https://github.com/user-attachments/assets/b89990d7-4a45-4395-8913-68453ba40bb8)
+
+Repeat task every :`as per your need`
+Press Ok
 
 
 2.3)Action: 
+
+Click NEW
 ```sh
 Start a program
 ```
 
 ![Screenshot (22)](https://github.com/user-attachments/assets/1cd24397-39a0-431c-bab6-84431a53dd84)
 
+Clicl OK
 
-2.4)Program/script: 
+2.4)Action
+
+Click NEW
+
+2.4.1)Program/script:
 ```sh
 powershell
 ```
 
-2.5)Add arguments: 
+2.4.2)Add arguments: 
 ```sh 
--File "C:\SpeedtestNotifier.ps1"
+-WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File "C:\SpeedtestNotifier.ps1"
 ```
 
-![Screenshot (23)](https://github.com/user-attachments/assets/b791b1af-029f-4a5a-98c0-4b000c00aac4)
+![Screenshot (31)](https://github.com/user-attachments/assets/b995036e-2719-459a-967a-4b097375b7d6)
 
-3.Start the wizard
+Click OK
 
-![Screenshot (24)](https://github.com/user-attachments/assets/710202b6-dabb-4c09-a8d6-0560b8ea3a46)
+2.5)Don't make any changes in Condition, Setting and Histroy
 
-Press OK
+![Screenshot (32)](https://github.com/user-attachments/assets/c75dcf95-83b3-46fe-adc3-51369b881c3d)
 
-![Screenshot (25)](https://github.com/user-attachments/assets/347dcf22-ccd5-4c9d-9f8d-4f619d71b712)
+Click OK
 
+3)Reboot your PC and check if this notificatoin pops.
+
+![Screenshot (33)](https://github.com/user-attachments/assets/a0bf1de8-befa-4d21-8a9d-05287fb361d0)
+
+If you face any problem contact me.....
