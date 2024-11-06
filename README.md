@@ -47,7 +47,7 @@ Replace `UserName` with your actual username in the following command:
 
 2. For setting interval as 1 Hour make changes in last line
 ```Bash
-0 * * * * /home/panyaa/speedtest_notify.sh
+0 * * * * /home/UserName/speedtest_notify.sh
 ```
 To change the existing interval you will need to use the correct path based on your system's user directory. 
 
@@ -59,6 +59,8 @@ Replace `UserName` with your actual username in the following command:
 
 # For Windows
 
+### `<Its a bit complicated but worth it>`
+
 1.Install Speedtest CLI
 
 Click on [Speedtest CLI](https://www.speedtest.net/apps/cli) to install .exe file and then scroll down 
@@ -67,3 +69,11 @@ Click on [Speedtest CLI](https://www.speedtest.net/apps/cli) to install .exe fil
 Select `Download for Windows`
 
 It will imediately start downloading Speedtext CLI.
+
+2.Open Downloads and extract zip of Speedtest it may come with name `ookla-speedtest-1.2.0-win64` version may vary.
+
+3.Open the extracted file,
+
+Select SpeedTest `Application` cut it and paste it in `Local Disk C` no need to put in any folder.
+
+4.Download 
