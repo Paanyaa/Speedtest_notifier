@@ -57,6 +57,12 @@ Replace `UserName` with your actual username in the following command:
 0 * * * * /home/UserName/speedtest_notify.sh
 ```
 
+
+![image](https://github.com/user-attachments/assets/f1afef26-11f5-4d20-8b5c-112a1d46ff0f)
+
+
+
+
 # For Windows
 
 ### `<Its a bit complicated but worth it, you can use below command to run script manually.>`
