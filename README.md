@@ -61,6 +61,26 @@ Replace `UserName` with your actual username in the following command:
 
 ### `<Its a bit complicated but worth it>`
 
+## Enable Scripts
+
+1.Set Script Execution Policy
+```bash
+  Set-ExecutionPolicy RemoteSigned
+```
+Press Y to continue.
+
+2.Set-ExecutionPolicy RemoteSigned
+```Bash
+  Install-Module -Name BurntToast -Force
+```
+Press Y to continue.
+
+Now Scripts are enable on Windows
+
+## Installation Guide
+
+#### When you add any new file to `Local Disk C` you need to grant adminstartive premission.
+
 1.Install Speedtest CLI
 
 Click on [Speedtest CLI](https://www.speedtest.net/apps/cli) to install .exe file and then scroll down 
@@ -77,3 +97,19 @@ It will imediately start downloading Speedtext CLI.
 Select SpeedTest `Application` cut it and paste it in `Local Disk C` no need to put in any folder.
 
 4.Download [SpeedtestNotifier.ps1](SpeedtestNotifier.ps1) file from my respo.
+
+5.Open Downloads ,Cut SpeedtestNotifier.ps1 file and paste it in `Local Disk C` no need to put in any folder.
+
+![Screenshot (15)](https://github.com/user-attachments/assets/09a39a3f-8c58-42bd-b8c5-4615ccff01b5)
+
+6.Now open `Command Prompt ` as Adminstrator
+
+And run command
+```Bash
+  powershell -File "C:\SpeedtestNotifier.ps1"
+```
+To run the Script.
+
+7.Wait for few Seconds
+
+![Screenshot (16)](https://github.com/user-attachments/assets/844762ef-c6bd-468e-a602-b8113739e1a3)
