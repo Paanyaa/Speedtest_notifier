@@ -57,4 +57,13 @@ Replace `UserName` with your actual username in the following command:
 0 * * * * /home/UserName/speedtest_notify.sh
 ```
 
-If you face any issues contact me.......
+# For Windows
+
+1.Install Speedtest CLI
+
+Click on [Speedtest CLI](https://www.speedtest.net/apps/cli) to install .exe file and then scroll down 
+
+![Screenshot (13)](https://github.com/user-attachments/assets/36f940e4-612d-438e-add4-83a4b041ba18)
+Select `Download for Windows`
+
+It will imediately start downloading Speedtext CLI.
