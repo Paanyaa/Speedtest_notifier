@@ -4,5 +4,5 @@ You can set its interval as 1 minute or 1 hour.
 
 #Installation
 ```Bash
-  git clone 
+  git clone https://github.com/Paanyaa/Speedtest_notifier.git
 ```
