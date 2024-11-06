@@ -76,4 +76,4 @@ It will imediately start downloading Speedtext CLI.
 
 Select SpeedTest `Application` cut it and paste it in `Local Disk C` no need to put in any folder.
 
-4.Download 
+4.Download `SpeedtestNotifier.ps1` file from my respo.
