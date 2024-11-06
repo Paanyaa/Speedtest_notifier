@@ -125,33 +125,48 @@ To run the Script.
 ![Screenshot (18)](https://github.com/user-attachments/assets/a9796559-b4b1-42f9-b6e0-c87081689eb1)
 
 
-Name: 
+2.1)Name: 
 ```sh
 Network Speed Test Notifier
 ```
 
+![Screenshot (20)](https://github.com/user-attachments/assets/a7dcb6d8-7661-4b06-b498-f6c41d9e96cd)
 
-Trigger: 
+
+2.2)Trigger: 
 ```sh
-Daily
+When Computer Starts
 ```
 , at the desired interval time.
 
+![Screenshot (21)](https://github.com/user-attachments/assets/1e35421f-9df4-4806-a3f3-9fc3c8e47deb)
 
-Action: 
+
+2.3)Action: 
 ```sh
 Start a program
 ```
 
+![Screenshot (22)](https://github.com/user-attachments/assets/1cd24397-39a0-431c-bab6-84431a53dd84)
 
-Program/script: 
+
+2.4)Program/script: 
 ```sh
 powershell
 ```
 
-
-Add arguments: 
+2.5)Add arguments: 
 ```sh 
 -File "C:\SpeedtestNotifier.ps1"
 ```
+
+![Screenshot (23)](https://github.com/user-attachments/assets/b791b1af-029f-4a5a-98c0-4b000c00aac4)
+
+3.Start the wizard
+
+![Screenshot (24)](https://github.com/user-attachments/assets/710202b6-dabb-4c09-a8d6-0560b8ea3a46)
+
+Press OK
+
+![Screenshot (25)](https://github.com/user-attachments/assets/347dcf22-ccd5-4c9d-9f8d-4f619d71b712)
 
