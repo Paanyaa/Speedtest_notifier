@@ -124,14 +124,34 @@ To run the Script.
 
 ![Screenshot (18)](https://github.com/user-attachments/assets/a9796559-b4b1-42f9-b6e0-c87081689eb1)
 
-![image](https://github.com/user-attachments/assets/6ccebbd4-34d6-4f16-b22d-587d478ed520)
 
-Name: `Network Speed Test Notifier`
+Name: 
+```sh
+Network Speed Test Notifier
+```
 
-Trigger: `Daily`, at the desired interval time.
 
-Action: `Start a program`
+Trigger: 
+```sh
+Daily
+```
+, at the desired interval time.
 
-Program/script: `powershell`
 
-Add arguments: `-File "C:\SpeedtestNotifier.ps1"`
+Action: 
+```sh
+Start a program
+```
+
+
+Program/script: 
+```sh
+powershell
+```
+
+
+Add arguments: 
+```sh 
+-File "C:\SpeedtestNotifier.ps1"
+```
+
