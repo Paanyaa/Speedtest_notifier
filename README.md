@@ -1,5 +1,5 @@
 # Speedtest_notifier
-It notifies you, your network speed at a certain interval of time (for ubuntu right now) thorugh notifications.
+It notifies you, your network speed at a certain interval of time (for ubuntu and windows) thorugh notifications.
 You can set its interval as 1 minute or 1 hour.
 
 # For Ubuntu
