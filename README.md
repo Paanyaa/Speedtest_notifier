@@ -5,18 +5,21 @@ You can set its interval as 1 minute or 1 hour.
 # For Ubuntu
 
 ## Installation
-1.Clone Repository.
+1.Install SpeedTest CLI
+```Bash
+sudo apt install speedtest-cli
+```
+2.Clone Repository.
 ```Bash
   git clone https://github.com/Paanyaa/Speedtest_notifier.git
 ```
-2.Change Directory.
+3.Change Directory.
 ```Bash
   cd Speedtest_notifier
 ```
-3.Install and Run speedtest_notify.sh file.
 ```Bash
   chmod +x speedtest_notify.sh
-  ~/speedtest_notify.sh
+  ./speedtest_notify.sh
 ```
 4.Wait for few seconds and notification will pop up.
 
@@ -32,7 +35,7 @@ Atfter installatoin lets set its interval
 DISPLAY=:0
 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 
-* * * * * /home/UserName/speedtest_notify.sh
+* * * * * /home/UserName/Speedtest_notifier/speedtest_notify.sh
 ```
 To set the interval, you will need to use the correct path based on your system's user directory. 
 
